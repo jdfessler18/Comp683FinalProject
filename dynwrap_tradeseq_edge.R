@@ -14,7 +14,7 @@ library(dplyr)
 
 # Input: Any Dynwrap wrapped trajectory with root and global pseudotime (Note: an update to add in the future could be to calculate the pseudotime
 # for each cell as the shortest distance from the root to the cell's projection onto the milestone network, this would remove the global pseudotime requirement)
-#Outputs: TradeSeq association test object for the trajectory
+#Outputs: TradeSeq GAM
 tradeSeq_Dynwrap_Edge_Method <- function(trajectory, dataset) {
   milestone_graph <- graph_from_data_frame(trajectory$milestone_network, directed = FALSE)
   
