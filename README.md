@@ -1,6 +1,6 @@
 # COMP 683 Final Project
 
-This is my final project for COMP683, a graduate level CS course at UNC that explores the latest applications of machine learning and data science in biomedical research.
+This is my final project for COMP683 Computational Biology, a graduate level CS course at UNC that explores the latest applications of machine learning and data science in biomedical research.
 
 ## Background
 Trajectory inference is a powerful method used to order cells along developmental trajectories in pseudotime, an axis representing differentiation of the gene profile.
